@@ -29,8 +29,8 @@ commit_frequency = 10 #commit time per day
 repo_link = "https://github.com/aliifam/github-activity-generator.git"
 ```
 7. after the script is already, you just run the script and see the magic.
-8. the script will make a new commit.txt file and make very many commit as you want after the process finished the script will push the reposssitory to GitHub.
-9. After all the processes are successful, please press the star for this repository😊.
+8. the script will make a new commit.txt file and make very many commit as you want after the process finished the script will push the repository to GitHub.
+9. after all the process is successful, please press the star for this repository😊.
 
 ## Troubleshooting
 do you have a question or do you get an error?
