@@ -20,7 +20,7 @@ be lush and very green, you will look very active and consistent in contributing
 1. Make sure in your Machine already installed Python 3 and Git
 2. Make sure Git in in your Machine already configured with Github.
 3. create an empty Github Repository can public or private, but I prefer you to make it private. do not initialize it.
-4. Download the [main.py script](https://github.com/aliifam/github-activity-generator/archive/master.zip) and open the file in your text editor.
+4. Download the [main.py script](https://github.com/aliifam/github-activity-generator/archive/main.zip) and open the file in your text editor.
 5. delete the file commit.txt
 6. customize the script in main.py for configuration as you want in here:
 ```python
