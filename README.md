@@ -4,7 +4,6 @@
 
 </div>
 
----
 >disclaimer: I made this project with the aim of having fun and to learn to automate things using the Python language
 
 hello, this is my second automation project which is making a github activity generator, using this script you can change and manipulate your github contribution timeline from arid to greenish:
