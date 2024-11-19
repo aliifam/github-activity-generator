@@ -4,13 +4,15 @@ import datetime
 from random import randint as ri
 
 total_day = 366 # how far back to start commits
-max_freq = 10 # max # of commits per day
+commit_freq = 10 # # of commits per day
+variablity = False # set to True if you want the number of commits per day to be random for a more realistic graph
 
 # change to your repo (using ssh)
 repo_link = "git@github.com:aliifam/github-activity-generator.git"
 
 tl = total_day #time day
 ctr = 1
+ct = commit_freq
 
 now = datetime.datetime.now()
 
@@ -22,8 +24,10 @@ os.system("git init")
 pointer = 0
 
 while tl > 0:
-    # variable number of commits per day so your graph isn't suspicously the same color throughout
-    ct = ri(0, max_freq + 1)
+    if variability:
+        # variable number of commits per day so your graph isn't suspicously the same color throughout
+        ct = ri(0, commit_freq + 1)
+        
     while ct > 0:
         f = open("commit.txt", "a+")
         l_date = now + datetime.timedelta(days=-pointer)
