@@ -4,11 +4,14 @@ import datetime
 from random import randint as ri
 
 total_day = 366 # how far back to start commits
-commit_freq = 10 # # of commits per day
-variablity = False # set to True if you want the number of commits per day to be random for a more realistic graph
+commit_freq = 10 # num of commits per day
 
-# change to your repo (using ssh)
-repo_link = "git@github.com:aliifam/github-activity-generator.git"
+# set to True if you want the number of commits per day to be random for a more realistic graph
+variablity = False
+
+# change to your repo
+# repo_link = "git@github.com:aliifam/github-activity-generator.git" # ssh
+repo_link = "https://www.github.com/aliifam/github-activity-generator.git" # http
 
 tl = total_day #time day
 ctr = 1
