@@ -27,7 +27,7 @@ os.system("git init")
 pointer = 0
 
 while tl > 0:
-    if variability:
+    if variablity:
         # variable number of commits per day so your graph isn't suspicously the same color throughout
         ct = ri(0, commit_freq + 1)
         
